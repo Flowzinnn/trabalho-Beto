@@ -7,6 +7,3 @@ frase_unica = frase.split(" ")
 frase_unica = set(frase_unica)
 
 print('O total de palavras únicas nesta frase é: ', len(frase_unica))
-
-
- 
