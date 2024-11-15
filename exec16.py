@@ -16,3 +16,6 @@ if z == None:
     print('ERRO: o número não pode ser negativo e também não pode ser quebrado. Ex: -4 // 6.3')
 else:
     print(f'O número {y}, fatorado é igual a {z}')
+
+# Descobri no dia 14/11 que tecnicamente não era pra fazer esse exercicio, porém não tive tanta dificuldade em aprender novas técnicas como retornar a função dentro da função e o uso do isinstance
+# E como eu estava tão focado em aprender novos conteudos no python e fazer tudo que estava na frente pra aprender enfim sintaxe, acabei fazendo os exercicios.
