@@ -14,7 +14,7 @@ while True:
     if value.lower() == 'fim' :
         break
     
-    try:
+    try:                                                       # precisei entender o conceito de try, except e ValueError pra isso
         number = int(value)
         lista2.append(number)
     

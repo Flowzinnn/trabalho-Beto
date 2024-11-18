@@ -5,7 +5,6 @@ def verif(x):
     else:
         print('O número é impar.')
 
-print('Digite um número, iremos verificar se é par ou impar.')
 x = int(input('Digite um número: '))
 verif(x)
 
