@@ -22,3 +22,8 @@ listaPar = []
 for i in range(len(listaNum)):
     listaPar = filtroPar(listaNum)
 print(listaPar)
+
+
+
+
+#atualizando a lista fazendo alguns exercicios que não precisam ser contados caso vale nota, estou fazendo após a data de entrega e estou apenas salvando no mesmo repositorio.
