@@ -1,6 +1,5 @@
-def filtroPar(x):
-    if x % 2 == 0:
-        return x
+def filtroPar(lista):
+    return [x for x in lista if x % 2 == 0]
    
 listaNum = []
 
@@ -17,11 +16,9 @@ while True:
     except ValueError:
         print('Digite um numero valido ou apenas sair para terminar')
 
-print(listaNum)
 listaPar = []
-for i in range(len(listaNum)):
-    listaPar = filtroPar(listaNum)
-print(listaPar)
+listaPar = filtroPar(listaNum)
+print('Os números pares são: ',listaPar)
 
 
 
